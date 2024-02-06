@@ -22,11 +22,17 @@
 		}
 		
 		// Taking all 5 values from the form data(input)
+//name
 		$first_name = $_REQUEST['first_name'];
 		$last_name = $_REQUEST['last_name'];
+
+//Mobile - 10 digits validation eg 9791952564
 		$gender = $_REQUEST['gender'];
-		$address = $_REQUEST['address'];
+//E-Mail - check for @ symbol validation
+		
 		$email = $_REQUEST['email'];
+//Message - No Validation Long text variable
+$address = $_REQUEST['address'];
 		
 		// Performing insert query execution
 		// here our table name is college
